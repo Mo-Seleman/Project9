@@ -1,0 +1,71 @@
+/* line 1, ../../../../Code/Project9/scss/base/_typography.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 5, ../../../../Code/Project9/scss/base/_typography.scss */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Zen Maru Gothic', sans-serif;
+  background-color: #EAEBEB;
+  padding-top: 100px;
+}
+
+/* line 13, ../../../../Code/Project9/scss/base/_typography.scss */
+a[class="navbar-brand"] {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+/* ======================================================= */
+/*                          Jumbo                          */
+/* ======================================================= */
+/* line 21, ../../../../Code/Project9/scss/base/_typography.scss */
+.lead {
+  color: #F05656;
+  margin-left: 8px;
+}
+
+/* line 26, ../../../../Code/Project9/scss/base/_typography.scss */
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+/* ======================================================= */
+/*                          About                          */
+/* ======================================================= */
+/* line 36, ../../../../Code/Project9/scss/base/_typography.scss */
+.aboutImg {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* line 39, ../../../../Code/Project9/scss/base/_typography.scss */
+#aboutHeading {
+  color: #F05656;
+}
+
+/* line 43, ../../../../Code/Project9/scss/base/_typography.scss */
+.aboutInfo {
+  font-size: 1.3rem;
+}
+
+/* line 1, ../../../../Code/Project9/scss/components/_navigation.scss */
+.nav-link {
+  color: black;
+}
+
+/* line 3, ../../../../Code/Project9/scss/components/_navigation.scss */
+.nav-link:focus {
+  color: #F05656;
+}
+
+/* line 8, ../../../../Code/Project9/scss/components/_navigation.scss */
+.active {
+  background-color: #F05656 !important;
+}
+
+/*# sourceMappingURL=styles.css.map */

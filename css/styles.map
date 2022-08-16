@@ -1,0 +1,36 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"../scss/styles.scss",
+		"../scss/utilities/_index.scss",
+		"../scss/utilities/_variables.scss",
+		"../scss/utilities/_mixins.scss",
+		"../scss/base/_index.scss",
+		"../scss/base/_typography.scss",
+		"../scss/components/_index.scss",
+		"../scss/components/_buttons.scss",
+		"../scss/components/_forms.scss",
+		"../scss/components/_navigation.scss",
+		"../scss/components/_grid.scss",
+		"../scss/components/_media-queries.scss",
+		"../scss/components/_images.scss"
+	],
+	"sourcesContent": [
+		"@import 'utilities/index';\n@import 'base/index';\n@import 'components/index';",
+		"@import 'variables';\n@import 'mixins';",
+		"$baseColor: #EAEBEB;\n$pink: #F05656;",
+		"",
+		"@import 'typography';",
+		"html { \n    box-sizing: border-box;\n}\n\nbody {\n    margin: 0;\n    padding: 0;\n    font-family: 'Zen Maru Gothic', sans-serif;\n    background-color: $baseColor;\n    padding-top: 100px;\n}\n\na[class=\"navbar-brand\"] {\n    font-weight: 900;\n    font-size: 1.5rem;\n}\n\n/* ======================================================= */\n/*                          Jumbo                          */\n/* ======================================================= */\n.lead {\n    color: $pink;\n    margin-left: 8px;\n}\n\nhr {\n    border: 0;\n    height: 1px;\n    background: #333;\n    background-image: linear-gradient(to right, #ccc, #333, #ccc);\n}\n\n/* ======================================================= */\n/*                          About                          */\n/* ======================================================= */\n.aboutImg {\n    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;\n}\n#aboutHeading {\n    color: $pink;\n}\n\n.aboutInfo {\n    font-size: 1.3rem;\n}\n",
+		"@import 'buttons';\n@import 'forms';\n@import 'navigation';\n@import 'grid';\n@import 'media-queries';\n@import 'images';",
+		"",
+		"",
+		".nav-link {\n    color: black;\n    &:focus {\n        color: $pink;\n    }\n}\n\n.active {\n    background-color: $pink !important;\n}",
+		"",
+		"",
+		""
+	],
+	"names": [],
+	"mappings": ";AKAA,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,UAAU;CACzB;;;AAED,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,WAAW,EAAE,6BAA6B;EAC1C,gBAAgB,EHRR,OAAO;EGSf,WAAW,EAAE,KAAK;CACrB;;;AAED,AAAA,CAAC,CAAA,AAAA,KAAC,CAAM,cAAc,AAApB,EAAsB;EACpB,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,MAAM;CACpB;;AAED,6DAA6D;AAC7D,6DAA6D;AAC7D,6DAA6D;;AAC7D,AAAA,KAAK,CAAC;EACF,KAAK,EHpBF,OAAO;EGqBV,WAAW,EAAE,GAAG;CACnB;;;AAED,AAAA,EAAE,CAAC;EACC,MAAM,EAAE,CAAC;EACT,MAAM,EAAE,GAAG;EACX,UAAU,EAAE,IAAI;EAChB,gBAAgB,EAAE,2CAA2C;CAChE;;AAED,6DAA6D;AAC7D,6DAA6D;AAC7D,6DAA6D;;AAC7D,AAAA,SAAS,CAAC;EACN,UAAU,EAAE,mBAAmB,CAAC,GAAG,CAAC,IAAI,CAAC,IAAI,EAAE,mBAAmB,CAAC,GAAG,CAAE,KAAI,CAAC,IAAI,EAAE,mBAAmB,CAAC,GAAG,CAAC,GAAG,CAAC,GAAG,EAAE,mBAAmB,CAAC,GAAG,CAAC,IAAI,CAAC,IAAI,EAAE,mBAAmB,CAAC,GAAG,CAAE,IAAG,CAAC,GAAG;CAC1L;;;AACD,AAAA,aAAa,CAAC;EACV,KAAK,EHtCF,OAAO;CGuCb;;;AAED,AAAA,UAAU,CAAC;EACP,SAAS,EAAE,MAAM;CACpB;;;AI5CD,AAAA,SAAS,CAAC;EACN,KAAK,EAAE,KAAK;CAIf;;;AALD,AAEI,SAFK,AAEJ,MAAM,CAAC;EACJ,KAAK,EPFN,OAAO;COGT;;;AAGL,AAAA,OAAO,CAAC;EACJ,gBAAgB,EPPb,OAAO,COOc,UAAU;CACrC"
+}

@@ -1,0 +1,10 @@
+.nav-link {
+    color: black;
+    &:focus {
+        color: $pink;
+    }
+}
+
+.active {
+    background-color: $pink !important;
+}

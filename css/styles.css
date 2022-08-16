@@ -19,15 +19,20 @@ a[class="navbar-brand"] {
 }
 
 /* ======================================================= */
-/*                          Jumbo                          */
+/*                      Jumbotron                          */
 /* ======================================================= */
 /* line 21, ../../../../Code/Project9/scss/base/_typography.scss */
+.typewriteContainer {
+  display: inline-block;
+}
+
+/* line 25, ../../../../Code/Project9/scss/base/_typography.scss */
 .lead {
   color: #F05656;
   margin-left: 8px;
 }
 
-/* line 26, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 30, ../../../../Code/Project9/scss/base/_typography.scss */
 hr {
   border: 0;
   height: 1px;
@@ -38,19 +43,20 @@ hr {
 /* ======================================================= */
 /*                          About                          */
 /* ======================================================= */
-/* line 36, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 39, ../../../../Code/Project9/scss/base/_typography.scss */
 .aboutImg {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-/* line 39, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 43, ../../../../Code/Project9/scss/base/_typography.scss */
 #aboutHeading {
   color: #F05656;
+  text-align: center;
 }
 
-/* line 43, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 48, ../../../../Code/Project9/scss/base/_typography.scss */
 .aboutInfo {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 /* line 1, ../../../../Code/Project9/scss/components/_navigation.scss */
@@ -66,6 +72,36 @@ hr {
 /* line 8, ../../../../Code/Project9/scss/components/_navigation.scss */
 .active {
   background-color: #F05656 !important;
+}
+
+@media (min-width: 992px) {
+  /* line 2, ../../../../Code/Project9/scss/components/_media-queries.scss */
+  .typewriter {
+    overflow: hidden;
+    border-right: 0.15em solid #F05656;
+    white-space: nowrap;
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+  }
+  /* The typing effect */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #F05656;
+    }
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

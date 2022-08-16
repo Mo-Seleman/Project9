@@ -16,8 +16,12 @@ a[class="navbar-brand"] {
 }
 
 /* ======================================================= */
-/*                          Jumbo                          */
+/*                      Jumbotron                          */
 /* ======================================================= */
+.typewriteContainer {
+    display: inline-block;
+}
+
 .lead {
     color: $pink;
     margin-left: 8px;
@@ -29,17 +33,18 @@ hr {
     background: #333;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
-
 /* ======================================================= */
 /*                          About                          */
 /* ======================================================= */
 .aboutImg {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
 #aboutHeading {
     color: $pink;
+    text-align: center;
 }
 
 .aboutInfo {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }

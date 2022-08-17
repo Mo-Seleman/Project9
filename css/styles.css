@@ -57,7 +57,7 @@ hr {
 
 /* line 50, ../../../../Code/Project9/scss/base/_typography.scss */
 .aboutInfo {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 /* ======================================================= */
@@ -91,9 +91,31 @@ hr {
 }
 
 /* line 73, ../../../../Code/Project9/scss/base/_typography.scss */
-.treehouse-icon {
-  width: 139px;
-  height: 32px;
+.sample > p {
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: 900;
+}
+
+/* line 1, ../../../../Code/Project9/scss/components/_buttons.scss */
+#cvBtn {
+  text-align: center;
+}
+
+/* line 5, ../../../../Code/Project9/scss/components/_buttons.scss */
+.third {
+  font-weight: 900;
+  width: 300px;
+  border-radius: 5px;
+  border-color: #F05656;
+  color: black;
+  box-shadow: 0 0 40px 40px #F05656 inset, 0 0 0 0 #F05656;
+  transition: all 150ms ease-in-out;
+}
+
+/* line 14, ../../../../Code/Project9/scss/components/_buttons.scss */
+.third:hover {
+  box-shadow: 0 0 10px 0 #F05656 inset, 0 0 10px 4px #F05656;
 }
 
 /* line 1, ../../../../Code/Project9/scss/components/_navigation.scss */

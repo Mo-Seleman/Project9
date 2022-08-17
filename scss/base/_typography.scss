@@ -48,7 +48,7 @@ hr {
 }
 
 .aboutInfo {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 /* ======================================================= */
@@ -70,7 +70,8 @@ hr {
     &:hover {transform: scale(1.1);}
 }
 
-.treehouse-icon {
-    width: 139px;
-    height: 32px;
+.sample > p {
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 900;
 }

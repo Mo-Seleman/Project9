@@ -1,17 +1,3 @@
 #cvBtn {
     text-align: center;
 }
-
-.third {
-    font-weight: 900;
-    width: 300px;
-    border-radius: 5px;
-    border-color: $pink;
-    color: black;
-    box-shadow: 0 0 40px 40px $pink inset, 0 0 0 0 $pink;
-    transition: all 150ms ease-in-out;
-    
-    &:hover {
-      box-shadow: 0 0 10px 0 $pink inset, 0 0 10px 4px $pink;
-    }
-  }

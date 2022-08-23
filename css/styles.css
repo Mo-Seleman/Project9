@@ -269,7 +269,7 @@ hr {
 /* line 253, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact {
   position: relative;
-  max-width: 420px;
+  max-width: 600px;
   padding: 40px 20px;
   overflow: hidden;
   margin: 0 auto;
@@ -353,14 +353,14 @@ hr {
 
 /* line 311, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact main section .content aside h1 {
-  font-weight: 100;
+  font-weight: 900;
   font-size: 22px;
   margin-bottom: 10px;
 }
 
 /* line 317, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact main section .content aside p {
-  font-size: 14px;
+  font-size: 1.25rem;
   letter-spacing: .5px;
   line-height: 160%;
 }
@@ -458,10 +458,11 @@ hr {
   display: block;
   width: 200px;
   float: left;
-  padding: 15px 0px;
+  padding-right: 15px;
+  font-weight: 900;
 }
 
-/* line 392, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 393, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact main button svg {
   position: absolute;
   top: 50%;
@@ -478,12 +479,12 @@ hr {
   transition: all 0.4s;
 }
 
-/* line 400, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 401, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact main button svg path {
   fill: #c63535;
 }
 
-/* line 405, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 406, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact main button.active {
   margin-right: 0;
   right: 20px;
@@ -497,20 +498,20 @@ hr {
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* line 417, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 418, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact main button.active span {
   opacity: 0;
   transition-delay: 0s;
   width: 200px;
 }
 
-/* line 423, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 424, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact main button.active svg {
   opacity: 1;
   transition-delay: .5s;
 }
 
-/* line 431, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 432, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav {
   float: left;
   width: 100%;
@@ -522,7 +523,7 @@ hr {
   transition: all 0.5s;
 }
 
-/* line 438, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 439, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav.active {
   max-height: 600px;
   -webkit-transition: all 1s;
@@ -531,7 +532,7 @@ hr {
   transition: all 1s;
 }
 
-/* line 442, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 443, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav.active a {
   opacity: 1;
   -webkit-transform: translateY(0px);
@@ -545,22 +546,22 @@ hr {
   transition: all 0.7s;
 }
 
-/* line 447, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 448, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav.active a:nth-of-type(1) {
   transition-delay: .5s;
 }
 
-/* line 451, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 452, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav.active a:nth-of-type(2) {
   transition-delay: .7s;
 }
 
-/* line 455, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 456, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav.active a:nth-of-type(3) {
   transition-delay: .9s;
 }
 
-/* line 461, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 462, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav a {
   float: left;
   width: 100%;
@@ -569,6 +570,7 @@ hr {
   padding: 18px 20px;
   border-radius: 5px;
   text-decoration: none;
+  line-height: 0;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -583,13 +585,13 @@ hr {
 }
 
 @media (min-width: 414px) {
-  /* line 461, ../../../../Code/Project9/scss/base/_typography.scss */
+  /* line 462, ../../../../Code/Project9/scss/base/_typography.scss */
   .contact nav a {
     padding: 18px 30px;
   }
 }
 
-/* line 478, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 480, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav a .arrow {
   position: absolute;
   right: 15px;
@@ -601,42 +603,42 @@ hr {
   transform: translateY(-50%);
 }
 
-/* line 484, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 486, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav a .arrow path {
   fill: #e6e6e6;
 }
 
-/* line 491, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 493, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav a.gmail .icon svg {
   background-color: #d14836;
 }
 
-/* line 497, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 499, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav a.gmail .content h1 {
   color: #d14836;
 }
 
-/* line 505, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 507, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav a.facebook .icon svg {
   background-color: #3b5998;
 }
 
-/* line 511, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 513, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav a.facebook .content h1 {
   color: #3b5998;
 }
 
-/* line 519, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 521, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav a.twitter .icon svg {
   background-color: #1da1f2;
 }
 
-/* line 525, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 527, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav a.twitter .content h1 {
   color: #1da1f2;
 }
 
-/* line 531, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 533, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav a .icon {
   float: left;
   width: 50px;
@@ -646,19 +648,19 @@ hr {
   margin-right: 20px;
 }
 
-/* line 539, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 541, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav a .icon svg {
   width: 100%;
   height: 100%;
   padding: 14px;
 }
 
-/* line 544, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 546, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav a .icon svg path {
   fill: #ffffff;
 }
 
-/* line 551, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 553, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav a .content h1 {
   font-size: 20px;
   font-weight: 400;
@@ -666,7 +668,7 @@ hr {
   letter-spacing: .4px;
 }
 
-/* line 558, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 560, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav a .content span {
   font-size: 14px;
   color: #b3b3b3;

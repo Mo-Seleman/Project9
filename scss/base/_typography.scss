@@ -252,7 +252,7 @@ hr {
 
 .contact {
   position: relative;
-  max-width: 420px;
+  max-width: 600px;
   padding: 40px 20px;
   overflow: hidden;
   margin: 0 auto;
@@ -309,13 +309,13 @@ hr {
           }
           
           h1 {
-            font-weight: 100;
+            font-weight: 900;
             font-size: 22px;
             margin-bottom: 10px;
           }
           
           p {
-            font-size: 14px;
+            font-size: 1.25rem;
             letter-spacing: .5px;
             line-height: 160%;
           }
@@ -386,7 +386,8 @@ hr {
         display: block;
         width: 200px;
         float: left;
-        padding: 15px 0px;
+        padding-right: 15px;
+        font-weight: 900;
       }
       
       svg {
@@ -466,6 +467,7 @@ hr {
       padding: 18px 20px;
       border-radius: 5px;
       text-decoration: none;
+      line-height: 0;
       @include transition(all .3s);
       opacity: 0;
       @include transform(translateY(-10px));

@@ -99,13 +99,20 @@ hr {
 
 /* line 79, ../../../../Code/Project9/scss/base/_typography.scss */
 #experience {
-  background-color: #5fcf80;
+  background-color: #F05656;
 }
 
 /* ======================================================= */
-/*                   Experience Cards                      */
+/*                   Projects/Experience Cards             */
 /* ======================================================= */
-/* line 87, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 86, ../../../../Code/Project9/scss/base/_typography.scss */
+#projectsHeader {
+  text-align: center;
+  color: #EAEBEB;
+  font-weight: 900;
+}
+
+/* line 92, ../../../../Code/Project9/scss/base/_typography.scss */
 .blog-card {
   display: flex;
   flex-direction: column;
@@ -118,31 +125,32 @@ hr {
   border-radius: 5px;
   overflow: hidden;
   z-index: 0;
+  box-shadow: #26394d 0px 20px 30px -10px;
 }
 
-/* line 99, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 105, ../../../../Code/Project9/scss/base/_typography.scss */
 .blog-card a {
   color: inherit;
 }
 
-/* line 101, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 107, ../../../../Code/Project9/scss/base/_typography.scss */
 .blog-card a:hover {
   color: #5ad67d;
 }
 
-/* line 106, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 112, ../../../../Code/Project9/scss/base/_typography.scss */
 .blog-card:hover .photo {
   transform: scale(1.3) rotate(3deg);
 }
 
-/* line 110, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 116, ../../../../Code/Project9/scss/base/_typography.scss */
 .blog-card .meta {
   position: relative;
   z-index: 0;
   height: 200px;
 }
 
-/* line 115, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 121, ../../../../Code/Project9/scss/base/_typography.scss */
 .blog-card .photo {
   position: absolute;
   top: 0;
@@ -154,93 +162,29 @@ hr {
   transition: transform .2s;
 }
 
-/* line 126, ../../../../Code/Project9/scss/base/_typography.scss */
-.blog-card .details,
-.blog-card .details ul {
-  margin: auto;
-  padding: 0;
-  list-style: none;
-}
-
 /* line 133, ../../../../Code/Project9/scss/base/_typography.scss */
-.blog-card .details {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: -100%;
-  margin: auto;
-  transition: left .2s;
-  background: rgba(0, 0, 0, 0.6);
-  color: #fff;
-  padding: 10px;
-  width: 100%;
-  font-size: .9rem;
-}
-
-/* line 145, ../../../../Code/Project9/scss/base/_typography.scss */
-.blog-card .details a {
-  text-decoration: dotted underline;
-}
-
-/* line 148, ../../../../Code/Project9/scss/base/_typography.scss */
-.blog-card .details ul li {
-  display: inline-block;
-}
-
-/* line 151, ../../../../Code/Project9/scss/base/_typography.scss */
-.blog-card .details .author:before {
-  font-family: FontAwesome;
-  margin-right: 10px;
-  content: "\f007";
-}
-
-/* line 157, ../../../../Code/Project9/scss/base/_typography.scss */
-.blog-card .details .date:before {
-  font-family: FontAwesome;
-  margin-right: 10px;
-  content: "\f133";
-}
-
-/* line 164, ../../../../Code/Project9/scss/base/_typography.scss */
-.blog-card .details .tags ul:before {
-  font-family: FontAwesome;
-  content: "\f02b";
-  margin-right: 10px;
-}
-
-/* line 169, ../../../../Code/Project9/scss/base/_typography.scss */
-.blog-card .details .tags li {
-  margin-right: 2px;
-}
-
-/* line 171, ../../../../Code/Project9/scss/base/_typography.scss */
-.blog-card .details .tags li:first-child {
-  margin-left: -4px;
-}
-
-/* line 177, ../../../../Code/Project9/scss/base/_typography.scss */
-.blog-card .description {
+.description {
   padding: 1rem;
   background: #fff;
   position: relative;
   z-index: 1;
 }
 
-/* line 182, ../../../../Code/Project9/scss/base/_typography.scss */
-.blog-card .description h1,
-.blog-card .description h2 {
+/* line 138, ../../../../Code/Project9/scss/base/_typography.scss */
+.description h1,
+.description h2 {
   font-family: Poppins, sans-serif;
 }
 
-/* line 186, ../../../../Code/Project9/scss/base/_typography.scss */
-.blog-card .description h1 {
+/* line 142, ../../../../Code/Project9/scss/base/_typography.scss */
+.description h1 {
   line-height: 1;
   margin: 0;
   font-size: 1.7rem;
 }
 
-/* line 191, ../../../../Code/Project9/scss/base/_typography.scss */
-.blog-card .description h2 {
+/* line 147, ../../../../Code/Project9/scss/base/_typography.scss */
+.description h2 {
   font-size: 1rem;
   font-weight: 300;
   text-transform: uppercase;
@@ -248,20 +192,20 @@ hr {
   margin-top: 5px;
 }
 
-/* line 198, ../../../../Code/Project9/scss/base/_typography.scss */
-.blog-card .description .read-more {
+/* line 154, ../../../../Code/Project9/scss/base/_typography.scss */
+.description .read-more {
   text-align: right;
 }
 
-/* line 200, ../../../../Code/Project9/scss/base/_typography.scss */
-.blog-card .description .read-more a {
+/* line 156, ../../../../Code/Project9/scss/base/_typography.scss */
+.description .read-more a {
   color: #5ad67d;
   display: inline-block;
   position: relative;
 }
 
-/* line 204, ../../../../Code/Project9/scss/base/_typography.scss */
-.blog-card .description .read-more a:after {
+/* line 160, ../../../../Code/Project9/scss/base/_typography.scss */
+.description .read-more a:after {
   content: "\f061";
   font-family: FontAwesome;
   margin-left: -10px;
@@ -270,25 +214,25 @@ hr {
   transition: margin .3s, opacity .3s;
 }
 
-/* line 213, ../../../../Code/Project9/scss/base/_typography.scss */
-.blog-card .description .read-more a:hover:after {
+/* line 169, ../../../../Code/Project9/scss/base/_typography.scss */
+.description .read-more a:hover:after {
   margin-left: 5px;
   opacity: 1;
 }
 
-/* line 220, ../../../../Code/Project9/scss/base/_typography.scss */
-.blog-card p {
+/* line 177, ../../../../Code/Project9/scss/base/_typography.scss */
+.experienceCards p {
   position: relative;
   margin: 1rem 0 0;
 }
 
-/* line 223, ../../../../Code/Project9/scss/base/_typography.scss */
-.blog-card p:first-of-type {
+/* line 180, ../../../../Code/Project9/scss/base/_typography.scss */
+.experienceCards p:first-of-type {
   margin-top: 1.25rem;
 }
 
-/* line 225, ../../../../Code/Project9/scss/base/_typography.scss */
-.blog-card p:first-of-type:before {
+/* line 182, ../../../../Code/Project9/scss/base/_typography.scss */
+.experienceCards p:first-of-type:before {
   content: "";
   position: absolute;
   height: 5px;
@@ -298,52 +242,436 @@ hr {
   border-radius: 3px;
 }
 
-/* line 237, ../../../../Code/Project9/scss/base/_typography.scss */
-.blog-card:hover .details {
-  left: 0%;
+/* line 194, ../../../../Code/Project9/scss/base/_typography.scss */
+.experienceCards li::marker {
+  content: url("data:image/svg+xml,%3Csvg width='16' height='10' viewBox='0 0 16 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.753 5.99999L10.273 8.29399C9.877 8.68399 9.877 9.31699 10.273 9.70799C10.668 10.098 11.31 10.098 11.705 9.70799L15.555 6.06099C15.843 5.77799 16 5.40299 16 4.99999C16 4.59999 15.842 4.22199 15.556 3.93999L11.706 0.292988C11.31 -0.0970117 10.668 -0.0970117 10.272 0.292988C9.877 0.682988 9.877 1.31599 10.272 1.70699L12.752 3.99999H1C0.447 3.99999 0 4.44599 0 4.99999C0 5.54999 0.448 5.99999 1 5.99999H12.753Z' fill='%237B61FF'/%3E%3C/svg%3E%0A");
 }
 
-@media (min-width: 640px) {
-  /* line 87, ../../../../Code/Project9/scss/base/_typography.scss */
-  .blog-card {
-    flex-direction: row;
-    max-width: 700px;
-  }
-  /* line 246, ../../../../Code/Project9/scss/base/_typography.scss */
-  .blog-card .meta {
-    flex-basis: 40%;
-    height: auto;
-  }
-  /* line 250, ../../../../Code/Project9/scss/base/_typography.scss */
-  .blog-card .description {
-    flex-basis: 60%;
-  }
-  /* line 252, ../../../../Code/Project9/scss/base/_typography.scss */
-  .blog-card .description:before {
-    transform: skewX(-3deg);
-    content: "";
-    background: #fff;
-    width: 30px;
+/* line 198, ../../../../Code/Project9/scss/base/_typography.scss */
+.experienceCards li {
+  padding-left: .5rem;
+}
+
+/* ======================================================= */
+/*                        Contact Me                       */
+/* ======================================================= */
+/* COLORS
+========================================== */
+/* CONTACT
+========================================== */
+/* line 247, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact-area {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+/* line 253, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact {
+  position: relative;
+  max-width: 420px;
+  padding: 40px 20px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+  /* line 253, ../../../../Code/Project9/scss/base/_typography.scss */
+  .contact {
     position: absolute;
-    left: -10px;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
-  /* line 264, ../../../../Code/Project9/scss/base/_typography.scss */
-  .blog-card.alt {
-    flex-direction: row-reverse;
+}
+
+/* line 267, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact main {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+/* line 272, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact main section {
+  border-radius: 5px;
+  float: left;
+  width: 100%;
+  background-color: #eb524a;
+}
+
+/* line 278, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact main section .content {
+  float: left;
+  width: 100%;
+  padding: 20px 30px 50px 30px;
+  position: relative;
+  text-align: center;
+}
+
+@media (min-width: 414px) {
+  /* line 278, ../../../../Code/Project9/scss/base/_typography.scss */
+  .contact main section .content {
+    text-align: left;
   }
-  /* line 267, ../../../../Code/Project9/scss/base/_typography.scss */
-  .blog-card.alt .description:before {
-    left: inherit;
-    right: -10px;
-    transform: skew(3deg);
+}
+
+/* line 289, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact main section .content img {
+  display: inline-block;
+  width: 140px;
+  border-radius: 50%;
+}
+
+@media (min-width: 414px) {
+  /* line 289, ../../../../Code/Project9/scss/base/_typography.scss */
+  .contact main section .content img {
+    float: left;
+    width: 30%;
+    margin-right: 10%;
   }
-  /* line 273, ../../../../Code/Project9/scss/base/_typography.scss */
-  .blog-card.alt .details {
-    padding-left: 25px;
+}
+
+/* line 301, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact main section .content aside {
+  float: left;
+  width: 100%;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+@media (min-width: 414px) {
+  /* line 301, ../../../../Code/Project9/scss/base/_typography.scss */
+  .contact main section .content aside {
+    width: 60%;
   }
+}
+
+/* line 311, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact main section .content aside h1 {
+  font-weight: 100;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+/* line 317, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact main section .content aside p {
+  font-size: 14px;
+  letter-spacing: .5px;
+  line-height: 160%;
+}
+
+/* line 326, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact main .title {
+  float: left;
+  width: 100%;
+  background-color: #c63535;
+  max-height: 0px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+  -webkit-transition: all 0.55s;
+  -moz-transition: all 0.55s;
+  -o-transition: all 0.55s;
+  transition: all 0.55s;
+}
+
+/* line 336, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact main .title.active {
+  max-height: 100px;
+  -webkit-transition: all 1.3s;
+  -moz-transition: all 1.3s;
+  -o-transition: all 1.3s;
+  transition: all 1.3s;
+}
+
+/* line 340, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact main .title.active p {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  transition-delay: .2s;
+}
+
+/* line 346, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact main .title p {
+  padding: 15px 30px;
+  color: #ffffff;
+  font-size: 16px;
+  display: inline-block;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+}
+
+/* line 359, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact main button {
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  background-color: #ffbe44;
+  color: #c63535;
+  border: 0;
+  width: 200px;
+  height: 48px;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 16px;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  margin-bottom: -24px;
+  margin-right: -100px;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  transition-delay: .1s;
+  outline: none;
+  overflow: hidden;
+  z-index: 10;
+  font-family: inherit;
+}
+
+/* line 382, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact main button span {
+  opacity: 1;
+  -webkit-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+  transition-delay: .4s;
+  display: block;
+  width: 200px;
+  float: left;
+  padding: 15px 0px;
+}
+
+/* line 392, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact main button svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+/* line 400, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact main button svg path {
+  fill: #c63535;
+}
+
+/* line 405, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact main button.active {
+  margin-right: 0;
+  right: 20px;
+  width: 65px;
+  height: 65px;
+  margin-bottom: -32.5px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  border-radius: 65px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* line 417, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact main button.active span {
+  opacity: 0;
+  transition-delay: 0s;
+  width: 200px;
+}
+
+/* line 423, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact main button.active svg {
+  opacity: 1;
+  transition-delay: .5s;
+}
+
+/* line 431, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact nav {
+  float: left;
+  width: 100%;
+  overflow: hidden;
+  max-height: 0px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+/* line 438, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact nav.active {
+  max-height: 600px;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+
+/* line 442, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact nav.active a {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -o-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition: all 0.7s;
+  -moz-transition: all 0.7s;
+  -o-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+/* line 447, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact nav.active a:nth-of-type(1) {
+  transition-delay: .5s;
+}
+
+/* line 451, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact nav.active a:nth-of-type(2) {
+  transition-delay: .7s;
+}
+
+/* line 455, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact nav.active a:nth-of-type(3) {
+  transition-delay: .9s;
+}
+
+/* line 461, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact nav a {
+  float: left;
+  width: 100%;
+  margin-top: 18px;
+  background-color: #ffffff;
+  padding: 18px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  opacity: 0;
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+  transform: translateY(-10px);
+  position: relative;
+}
+
+@media (min-width: 414px) {
+  /* line 461, ../../../../Code/Project9/scss/base/_typography.scss */
+  .contact nav a {
+    padding: 18px 30px;
+  }
+}
+
+/* line 478, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact nav a .arrow {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* line 484, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact nav a .arrow path {
+  fill: #e6e6e6;
+}
+
+/* line 491, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact nav a.gmail .icon svg {
+  background-color: #d14836;
+}
+
+/* line 497, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact nav a.gmail .content h1 {
+  color: #d14836;
+}
+
+/* line 505, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact nav a.facebook .icon svg {
+  background-color: #3b5998;
+}
+
+/* line 511, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact nav a.facebook .content h1 {
+  color: #3b5998;
+}
+
+/* line 519, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact nav a.twitter .icon svg {
+  background-color: #1da1f2;
+}
+
+/* line 525, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact nav a.twitter .content h1 {
+  color: #1da1f2;
+}
+
+/* line 531, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact nav a .icon {
+  float: left;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+/* line 539, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact nav a .icon svg {
+  width: 100%;
+  height: 100%;
+  padding: 14px;
+}
+
+/* line 544, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact nav a .icon svg path {
+  fill: #ffffff;
+}
+
+/* line 551, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact nav a .content h1 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: .4px;
+}
+
+/* line 558, ../../../../Code/Project9/scss/base/_typography.scss */
+.contact nav a .content span {
+  font-size: 14px;
+  color: #b3b3b3;
+  display: block;
+  letter-spacing: .4px;
 }
 
 /* line 1, ../../../../Code/Project9/scss/components/_buttons.scss */
@@ -359,11 +687,6 @@ hr {
 /* line 3, ../../../../Code/Project9/scss/components/_navigation.scss */
 .nav-link:focus {
   color: #F05656;
-}
-
-/* line 8, ../../../../Code/Project9/scss/components/_navigation.scss */
-.active {
-  background-color: #F05656 !important;
 }
 
 @media (min-width: 992px) {

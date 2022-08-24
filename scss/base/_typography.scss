@@ -310,7 +310,7 @@ hr {
           
           h1 {
             font-weight: 900;
-            font-size: 22px;
+            font-size: 2rem;
             margin-bottom: 10px;
           }
           
@@ -519,13 +519,13 @@ hr {
       &.twitter {
         .icon {
           svg {
-            background-color: $twitter;
+            background-color: black;
           }
         }
         
         .content {
           h1 {
-            color: $twitter;
+            color: black;
           }
         }
       }

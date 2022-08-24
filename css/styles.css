@@ -354,7 +354,7 @@ hr {
 /* line 311, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact main section .content aside h1 {
   font-weight: 900;
-  font-size: 22px;
+  font-size: 2rem;
   margin-bottom: 10px;
 }
 
@@ -630,12 +630,12 @@ hr {
 
 /* line 521, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav a.twitter .icon svg {
-  background-color: #1da1f2;
+  background-color: black;
 }
 
 /* line 527, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav a.twitter .content h1 {
-  color: #1da1f2;
+  color: black;
 }
 
 /* line 533, ../../../../Code/Project9/scss/base/_typography.scss */

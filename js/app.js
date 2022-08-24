@@ -9,3 +9,4 @@ contactArea.addEventListener('click', e => {
     socialsNav.classList.toggle('active');
     }
 )
+

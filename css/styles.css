@@ -60,17 +60,22 @@ hr {
   font-size: 1.1rem;
 }
 
+/* line 54, ../../../../Code/Project9/scss/base/_typography.scss */
+#aboutImgSm {
+  flex: none;
+}
+
 /* ======================================================= */
 /*                          Skills                         */
 /* ======================================================= */
-/* line 57, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 61, ../../../../Code/Project9/scss/base/_typography.scss */
 #skillsHeader {
   color: #F05656;
   text-align: center;
   font-weight: 900;
 }
 
-/* line 63, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 67, ../../../../Code/Project9/scss/base/_typography.scss */
 .htmlImg,
 .cssImg,
 .jsImg,
@@ -80,7 +85,7 @@ hr {
   transition: all .2s ease-in-out;
 }
 
-/* line 70, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 74, ../../../../Code/Project9/scss/base/_typography.scss */
 .htmlImg:hover,
 .cssImg:hover,
 .jsImg:hover,
@@ -90,14 +95,14 @@ hr {
   transform: scale(1.1);
 }
 
-/* line 73, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 77, ../../../../Code/Project9/scss/base/_typography.scss */
 .sample > p {
   text-align: center;
   margin-bottom: 0;
   font-weight: 900;
 }
 
-/* line 79, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 83, ../../../../Code/Project9/scss/base/_typography.scss */
 #experience {
   background-color: #F05656;
 }
@@ -105,14 +110,14 @@ hr {
 /* ======================================================= */
 /*                   Projects/Experience Cards             */
 /* ======================================================= */
-/* line 86, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 90, ../../../../Code/Project9/scss/base/_typography.scss */
 #projectsHeader {
   text-align: center;
   color: #EAEBEB;
   font-weight: 900;
 }
 
-/* line 92, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 96, ../../../../Code/Project9/scss/base/_typography.scss */
 .blog-card {
   display: flex;
   flex-direction: column;
@@ -128,29 +133,29 @@ hr {
   box-shadow: #26394d 0px 20px 30px -10px;
 }
 
-/* line 105, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 109, ../../../../Code/Project9/scss/base/_typography.scss */
 .blog-card a {
   color: inherit;
 }
 
-/* line 107, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 111, ../../../../Code/Project9/scss/base/_typography.scss */
 .blog-card a:hover {
   color: #5ad67d;
 }
 
-/* line 112, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 116, ../../../../Code/Project9/scss/base/_typography.scss */
 .blog-card:hover .photo {
   transform: scale(1.3) rotate(3deg);
 }
 
-/* line 116, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 120, ../../../../Code/Project9/scss/base/_typography.scss */
 .blog-card .meta {
   position: relative;
   z-index: 0;
   height: 200px;
 }
 
-/* line 121, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 125, ../../../../Code/Project9/scss/base/_typography.scss */
 .blog-card .photo {
   position: absolute;
   top: 0;
@@ -162,7 +167,7 @@ hr {
   transition: transform .2s;
 }
 
-/* line 133, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 137, ../../../../Code/Project9/scss/base/_typography.scss */
 .description {
   padding: 1rem;
   background: #fff;
@@ -170,20 +175,20 @@ hr {
   z-index: 1;
 }
 
-/* line 138, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 142, ../../../../Code/Project9/scss/base/_typography.scss */
 .description h1,
 .description h2 {
   font-family: Poppins, sans-serif;
 }
 
-/* line 142, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 146, ../../../../Code/Project9/scss/base/_typography.scss */
 .description h1 {
   line-height: 1;
   margin: 0;
   font-size: 1.7rem;
 }
 
-/* line 147, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 151, ../../../../Code/Project9/scss/base/_typography.scss */
 .description h2 {
   font-size: 1rem;
   font-weight: 300;
@@ -192,19 +197,19 @@ hr {
   margin-top: 5px;
 }
 
-/* line 154, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 158, ../../../../Code/Project9/scss/base/_typography.scss */
 .description .read-more {
   text-align: right;
 }
 
-/* line 156, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 160, ../../../../Code/Project9/scss/base/_typography.scss */
 .description .read-more a {
   color: #5ad67d;
   display: inline-block;
   position: relative;
 }
 
-/* line 160, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 164, ../../../../Code/Project9/scss/base/_typography.scss */
 .description .read-more a:after {
   content: "\f061";
   font-family: FontAwesome;
@@ -214,24 +219,24 @@ hr {
   transition: margin .3s, opacity .3s;
 }
 
-/* line 169, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 173, ../../../../Code/Project9/scss/base/_typography.scss */
 .description .read-more a:hover:after {
   margin-left: 5px;
   opacity: 1;
 }
 
-/* line 177, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 181, ../../../../Code/Project9/scss/base/_typography.scss */
 .experienceCards p {
   position: relative;
   margin: 1rem 0 0;
 }
 
-/* line 180, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 184, ../../../../Code/Project9/scss/base/_typography.scss */
 .experienceCards p:first-of-type {
   margin-top: 1.25rem;
 }
 
-/* line 182, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 186, ../../../../Code/Project9/scss/base/_typography.scss */
 .experienceCards p:first-of-type:before {
   content: "";
   position: absolute;
@@ -242,12 +247,12 @@ hr {
   border-radius: 3px;
 }
 
-/* line 194, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 198, ../../../../Code/Project9/scss/base/_typography.scss */
 .experienceCards li::marker {
   content: url("data:image/svg+xml,%3Csvg width='16' height='10' viewBox='0 0 16 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.753 5.99999L10.273 8.29399C9.877 8.68399 9.877 9.31699 10.273 9.70799C10.668 10.098 11.31 10.098 11.705 9.70799L15.555 6.06099C15.843 5.77799 16 5.40299 16 4.99999C16 4.59999 15.842 4.22199 15.556 3.93999L11.706 0.292988C11.31 -0.0970117 10.668 -0.0970117 10.272 0.292988C9.877 0.682988 9.877 1.31599 10.272 1.70699L12.752 3.99999H1C0.447 3.99999 0 4.44599 0 4.99999C0 5.54999 0.448 5.99999 1 5.99999H12.753Z' fill='%237B61FF'/%3E%3C/svg%3E%0A");
 }
 
-/* line 198, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 202, ../../../../Code/Project9/scss/base/_typography.scss */
 .experienceCards li {
   padding-left: .5rem;
 }
@@ -259,14 +264,14 @@ hr {
 ========================================== */
 /* CONTACT
 ========================================== */
-/* line 247, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 251, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact-area {
   width: 100%;
   height: 100vh;
   position: relative;
 }
 
-/* line 253, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 257, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact {
   position: relative;
   max-width: 600px;
@@ -276,7 +281,7 @@ hr {
 }
 
 @media (min-width: 1024px) {
-  /* line 253, ../../../../Code/Project9/scss/base/_typography.scss */
+  /* line 257, ../../../../Code/Project9/scss/base/_typography.scss */
   .contact {
     position: absolute;
     top: 50%;
@@ -289,14 +294,14 @@ hr {
   }
 }
 
-/* line 267, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 271, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact main {
   float: left;
   width: 100%;
   position: relative;
 }
 
-/* line 272, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 276, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact main section {
   border-radius: 5px;
   float: left;
@@ -304,7 +309,7 @@ hr {
   background-color: #eb524a;
 }
 
-/* line 278, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 282, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact main section .content {
   float: left;
   width: 100%;
@@ -314,13 +319,13 @@ hr {
 }
 
 @media (min-width: 414px) {
-  /* line 278, ../../../../Code/Project9/scss/base/_typography.scss */
+  /* line 282, ../../../../Code/Project9/scss/base/_typography.scss */
   .contact main section .content {
     text-align: left;
   }
 }
 
-/* line 289, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 293, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact main section .content img {
   display: inline-block;
   width: 140px;
@@ -328,7 +333,7 @@ hr {
 }
 
 @media (min-width: 414px) {
-  /* line 289, ../../../../Code/Project9/scss/base/_typography.scss */
+  /* line 293, ../../../../Code/Project9/scss/base/_typography.scss */
   .contact main section .content img {
     float: left;
     width: 30%;
@@ -336,7 +341,7 @@ hr {
   }
 }
 
-/* line 301, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 305, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact main section .content aside {
   float: left;
   width: 100%;
@@ -345,27 +350,27 @@ hr {
 }
 
 @media (min-width: 414px) {
-  /* line 301, ../../../../Code/Project9/scss/base/_typography.scss */
+  /* line 305, ../../../../Code/Project9/scss/base/_typography.scss */
   .contact main section .content aside {
     width: 60%;
   }
 }
 
-/* line 311, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 315, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact main section .content aside h1 {
   font-weight: 900;
   font-size: 2rem;
   margin-bottom: 10px;
 }
 
-/* line 317, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 321, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact main section .content aside p {
   font-size: 1.25rem;
   letter-spacing: .5px;
   line-height: 160%;
 }
 
-/* line 326, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 330, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact main .title {
   float: left;
   width: 100%;
@@ -380,7 +385,7 @@ hr {
   transition: all 0.55s;
 }
 
-/* line 336, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 340, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact main .title.active {
   max-height: 100px;
   -webkit-transition: all 1.3s;
@@ -389,7 +394,7 @@ hr {
   transition: all 1.3s;
 }
 
-/* line 340, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 344, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact main .title.active p {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
@@ -399,7 +404,7 @@ hr {
   transition-delay: .2s;
 }
 
-/* line 346, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 350, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact main .title p {
   padding: 15px 30px;
   color: #ffffff;
@@ -419,7 +424,7 @@ hr {
   transform: scale(0);
 }
 
-/* line 359, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 363, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact main button {
   position: absolute;
   bottom: 0;
@@ -447,7 +452,7 @@ hr {
   font-family: inherit;
 }
 
-/* line 382, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 386, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact main button span {
   opacity: 1;
   -webkit-transition: opacity 0.2s;
@@ -462,7 +467,7 @@ hr {
   font-weight: 900;
 }
 
-/* line 393, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 397, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact main button svg {
   position: absolute;
   top: 50%;
@@ -479,12 +484,12 @@ hr {
   transition: all 0.4s;
 }
 
-/* line 401, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 405, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact main button svg path {
   fill: #c63535;
 }
 
-/* line 406, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 410, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact main button.active {
   margin-right: 0;
   right: 20px;
@@ -498,20 +503,20 @@ hr {
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* line 418, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 422, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact main button.active span {
   opacity: 0;
   transition-delay: 0s;
   width: 200px;
 }
 
-/* line 424, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 428, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact main button.active svg {
   opacity: 1;
   transition-delay: .5s;
 }
 
-/* line 432, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 436, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav {
   float: left;
   width: 100%;
@@ -523,7 +528,7 @@ hr {
   transition: all 0.5s;
 }
 
-/* line 439, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 443, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav.active {
   max-height: 600px;
   -webkit-transition: all 1s;
@@ -532,7 +537,7 @@ hr {
   transition: all 1s;
 }
 
-/* line 443, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 447, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav.active a {
   opacity: 1;
   -webkit-transform: translateY(0px);
@@ -546,22 +551,22 @@ hr {
   transition: all 0.7s;
 }
 
-/* line 448, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 452, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav.active a:nth-of-type(1) {
   transition-delay: .5s;
 }
 
-/* line 452, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 456, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav.active a:nth-of-type(2) {
   transition-delay: .7s;
 }
 
-/* line 456, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 460, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav.active a:nth-of-type(3) {
   transition-delay: .9s;
 }
 
-/* line 462, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 466, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav a {
   float: left;
   width: 100%;
@@ -585,13 +590,13 @@ hr {
 }
 
 @media (min-width: 414px) {
-  /* line 462, ../../../../Code/Project9/scss/base/_typography.scss */
+  /* line 466, ../../../../Code/Project9/scss/base/_typography.scss */
   .contact nav a {
     padding: 18px 30px;
   }
 }
 
-/* line 480, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 484, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav a .arrow {
   position: absolute;
   right: 15px;
@@ -603,42 +608,42 @@ hr {
   transform: translateY(-50%);
 }
 
-/* line 486, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 490, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav a .arrow path {
   fill: #e6e6e6;
 }
 
-/* line 493, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 497, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav a.gmail .icon svg {
   background-color: #d14836;
 }
 
-/* line 499, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 503, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav a.gmail .content h1 {
   color: #d14836;
 }
 
-/* line 507, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 511, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav a.facebook .icon svg {
   background-color: #3b5998;
 }
 
-/* line 513, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 517, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav a.facebook .content h1 {
   color: #3b5998;
 }
 
-/* line 521, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 525, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav a.twitter .icon svg {
   background-color: black;
 }
 
-/* line 527, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 531, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav a.twitter .content h1 {
   color: black;
 }
 
-/* line 533, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 537, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav a .icon {
   float: left;
   width: 50px;
@@ -648,19 +653,19 @@ hr {
   margin-right: 20px;
 }
 
-/* line 541, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 545, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav a .icon svg {
   width: 100%;
   height: 100%;
   padding: 14px;
 }
 
-/* line 546, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 550, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav a .icon svg path {
   fill: #ffffff;
 }
 
-/* line 553, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 557, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav a .content h1 {
   font-size: 20px;
   font-weight: 400;
@@ -668,7 +673,7 @@ hr {
   letter-spacing: .4px;
 }
 
-/* line 560, ../../../../Code/Project9/scss/base/_typography.scss */
+/* line 564, ../../../../Code/Project9/scss/base/_typography.scss */
 .contact nav a .content span {
   font-size: 14px;
   color: #b3b3b3;
@@ -681,6 +686,35 @@ hr {
   text-align: center;
 }
 
+/* line 5, ../../../../Code/Project9/scss/components/_buttons.scss */
+.third {
+  background-color: rgba(51, 51, 51, 0.05);
+  border-radius: 8px;
+  border-width: 0;
+  width: 200px;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+/* line 26, ../../../../Code/Project9/scss/components/_buttons.scss */
+.third:hover {
+  transform: scale(1.2);
+}
+
 /* line 1, ../../../../Code/Project9/scss/components/_navigation.scss */
 .nav-link {
   color: black;
@@ -690,6 +724,11 @@ hr {
 .nav-link:focus, .nav-link:hover {
   background-color: #F05656;
   color: white;
+}
+
+/* line 1, ../../../../Code/Project9/scss/components/_grid.scss */
+#aboutMeRow {
+  display: inline;
 }
 
 @media (min-width: 992px) {

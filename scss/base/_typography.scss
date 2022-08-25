@@ -80,13 +80,14 @@ hr {
     font-weight: 900;
 }
 
-#experience {
-    background-color: $pink;
-}
-
 /* ======================================================= */
 /*                   Projects/Experience Cards             */
 /* ======================================================= */
+
+.experience {
+  background-color: $pink;
+}
+
 #projectsHeader {
   text-align: center;
   color: $baseColor;

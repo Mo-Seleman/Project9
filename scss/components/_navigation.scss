@@ -1,8 +1,13 @@
 .nav-link {
-    color: black;
-    &:focus,
-    &:hover {
-        background-color: $pink;
-        color: white;
-    }
+  color: black;
+  &:focus {
+    background-color: $pink;
+    color: white;
+  }
+}
+
+.nav-link.active,
+.show > .nav-link {
+  background-color: $pink !important;
+  color: white !important;
 }

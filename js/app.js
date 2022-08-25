@@ -1,6 +1,7 @@
 const contactArea = document.querySelector('.contact');
 const contactMeTitle = document.querySelector('.title');
 const socialsNav = document.querySelector('#socialsNav');
+const mybutton = document.getElementById("myBtn");
 
 contactArea.addEventListener('click', e => {
     const contactButton = e.target.closest('button');
@@ -8,5 +9,19 @@ contactArea.addEventListener('click', e => {
     contactMeTitle.classList.toggle('active');
     socialsNav.classList.toggle('active');
     }
-)
+);
 
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0; 
+}

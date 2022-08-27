@@ -207,8 +207,7 @@ hr {
 /* ======================================================= */
 /*                        Contact Me                       */
 /* ======================================================= */
-/* COLORS
-========================================== */
+
 @mixin animation($animation) {
   -webkit-animation: #{$animation};
      -moz-animation: #{$animation};
@@ -253,6 +252,10 @@ hr {
   width: 100%;
   height: 100vh;
   position: relative;
+}
+
+.contactEmail {
+  padding-left: 45px;
 }
 
 .contact {
@@ -313,7 +316,7 @@ hr {
             width: 60%;
           }
           
-          h1 {
+          h2 {
             font-weight: 900;
             font-size: 2rem;
             margin-bottom: 10px;

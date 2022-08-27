@@ -25,3 +25,9 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0; 
 }
+
+const navBtn = document.getElementById('mainNav');
+const nav = document.getElementById('navbarNavAltMarkup');
+navBtn.addEventListener('click', () => {
+  nav.classList.contains('show') ? nav.classList.remove('show') : nav.classList.add('show');
+});

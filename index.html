@@ -17,7 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Quantico&family=Zen+Maru+Gothic:wght@400;900&display=swap"
       rel="stylesheet"
     />
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body data-bs-spy="scroll" data-bs-target="#mainNav" tabindex="0">
     <!-- Nav -->
@@ -56,10 +56,10 @@
         </div>
       </div>
       <hr>
-    <section >
+    <section>
       <div class="container">
         <div id="aboutMeRow" class="row d-md-flex">
-          <div id="aboutImgSm" class="col col-lg-6 py-3">
+          <div id="aboutImgSm" class="col col-lg-6 py-3" data-aos="fade-right">
             <div class="aboutImg">
               <img
                 src="img/IMG_2872.jpg"
@@ -68,7 +68,7 @@
               />
             </div>
           </div>
-          <div class="col col-lg-6 mt-3">
+          <div class="col col-lg-6 mt-3" data-aos="fade-left">
             <h1 id="aboutHeading">About Me...</h1>
             <div class="aboutInfo">
               <p class="text-center">
@@ -85,14 +85,14 @@
     </section>
     <hr>
     <section id="skills">
-        <h1 id="skillsHeader">Current Skills</h1>
+        <h1 id="skillsHeader" data-aos="fade-up">Current Skills</h1>
         <div class="skillsContainer d-flex justify-content-center justify-content-md-between flex-wrap">
-            <div class="htmlImg sample"><img src="img/html.png" alt=""><p>HTML</p></div>
-            <div class="cssImg sample"><img src="img/css.png" alt=""><p>CSS</p></div>
-            <div class="jsImg sample"><img src="img/js.png" alt=""><p>JAVASCRIPT</p></div>
-            <div class="sassImg sample"><img src="img/sass.png" alt=""><p>SASS</p></div>
-            <div class="bootstrapImg sample"><img src="img/bootstrap.png" alt=""><p>BOOTSTRAP</p></div>
-            <div class="slackImg sample"><img src="img/jquery.png" alt=""><p id="experience">JQUERY</p></div>
+            <div class="htmlImg sample"><img src="img/html.png" alt="" data-aos="fade-down"><p>HTML</p></div>
+            <div class="cssImg sample"><img src="img/css.png" alt="" data-aos="fade-up"><p>CSS</p></div>
+            <div class="jsImg sample"><img src="img/js.png" alt="" data-aos="fade-down"><p>JAVASCRIPT</p></div>
+            <div class="sassImg sample"><img src="img/sass.png" alt="" data-aos="fade-up"><p>SASS</p></div>
+            <div class="bootstrapImg sample"><img src="img/bootstrap.png" alt="" data-aos="fade-down"><p>BOOTSTRAP</p></div>
+            <div class="slackImg sample"><img src="img/jquery.png" alt="" data-aos="fade-up"><p id="experience">JQUERY</p></div>
         </div>
     </section>
     
@@ -110,6 +110,7 @@
           <h1>Employee Directory</h1>
           <h2>Grade: Exceeds Expectations</h2>
           <p> This Project Consisted Of Using HTML, SASS, & JavaScript To Build An Employee Directory That Fetches Live Data From an API Server. The Data Retrieved Includes Full Names, Emails, & Locations. This Information Is Then Displayed In A Grid Style To Esure Easy Userbility. Some Of The Key Features Of This Directory Are:
+          </p>
             <ul class="mt-1">
                 <li>Pop Up Modal Providing Additonal Information With Added Toggle Between User Functionality</li>
                 <li>Employees Can Be Filtered By Name Using The Search Field</li>
@@ -129,13 +130,13 @@
           <h1>Web Style Guide</h1>
           <h2>Grade: Exceeds Expectations</h2>
           <p>The Web Style Guide Project Was My First Introduction To SASS. My Task Was To Convert The Provided CSS Into SASS By Splitting The Code Into Several SASS Partial Files. This Project Was Excellent In Providing Me With A Great Overall Understanding Of Sass And Ways It Can Make Me Become A Better Developer. Some Of The Things I Learned In This Project Are:
+          </p>
             <ul class="mt-1">
                 <li>How To Structure SASS Files</li>
                 <li>Compiling & Processing SCSS To CSS</li>
                 <li>SASS Variables, Mixins & Nesting</li>
                 <li>Usefull Tools Such As The Parent Selector (&) & Sass lighten() Function</li>
             </ul>
-          </p>
           <p class="read-more">
             <a href="https://mo-seleman.github.io/Project4/" target="_blank">Live Site</a>
           </p>
@@ -149,13 +150,13 @@
           <h1>WebApp Dashboard</h1>
           <h2>Grade: Exceeds Expectations</h2>
           <p>In This Project I Used Mockups To Build a Web Dashboard That Runs With JavaScript-driven Charts & Graphs. Some Of The Key Features Of This Web Dashboard Are:
+          </p>
             <ul class="mt-1">
                 <li>Dropdown Menu That Displayes Notifications When The User Clicks The Alert Icon</li>
                 <li>Responsive Website That Responds To Mobile (320px), Tablet (768px) & Desktop (1024px) Screen Sizes</li>
                 <li>JavaScript Library Used To Display Charts (chart.js) & SVG Icons Used</li>
                 <li>Local Storage Used To Save The Settings. When Page Is Reloaded The Settings Are Remembered.</li>
             </ul>
-          </p>
           <p class="read-more">
             <a href="https://mo-seleman.github.io/Project7/" target="_blank">Live Site</a>
           </p>
@@ -171,6 +172,7 @@
               <h1>Game Show App</h1>
               <h2>Grade: Exceeds Expectations</h2>
               <p> For This Project I Built A Word Guessing Game Where Players Click Letters From An Onscreen Keyboard To Try And Guess A Random Phrase. I Used HTML & SASS For The Layout, & JavaScript To Create An Array Of Phrases & Write Functions That Choose A Random Phrase From That Array, Split The Phrase Into Letters, & Put Those Letters Onto The Game Board. Some Of The Key Features Of This Directory Are:
+              </p>
                 <ul class="mt-1">
                     <li>JavaScript Arrays & Object Oriented JavaScript</li>
                     <li>String Manipulation</li>
@@ -189,6 +191,7 @@
               <h1>Interactive Photo Gallery</h1>
               <h2>Grade: Exceeds Expectations</h2>
               <p>This Was The First Project Were I Was Introduced To JavaScript. The Task Was To Create An Interactive Photo Gallery, Something That is Commonly Featured On Many Websites. Some Of The Key Features Of This Web Dashboard Are:
+              </p>
                 <ul class="mt-1">
                     <li>Fully Responsive</li>
                     <li>Successfully Implements The baguetteBox.js Lightbox Plugin</li>
@@ -196,7 +199,6 @@
                     <li>Larger Images Appear When Gallery Thumbnail Image Is Clicked.</li>
                     <li>As The User Types Into The Search Box, Only Photos That Match The Caption Text Appear.</li>
                 </ul>
-              </p>
               <p class="read-more">
                 <a href="https://mo-seleman.github.io/Project5/" target="_blank">Live Site</a>
               </p>
@@ -207,7 +209,7 @@
     </section> <!-- /Experience Cards -->
 
     <!-- Contact -->
-      <div id="contact" class="contact-area">
+      <div id="contact" class="contact-area" data-aos="fade-up">
         <div class="contact">
           <main>
             <section>
@@ -215,7 +217,7 @@
                 <img src="img/profileImg2.jpeg" alt="Profile Image">
       
                 <aside>
-                  <h1>Mohammed Seleman</h1>
+                  <h2>Mohammed Seleman</h2>
                   <p class="mt-4">Hi, I'm Mohammed Seleman and I'm a Junior Front-End Web Developer.</p>
                 </aside>
                
@@ -229,19 +231,16 @@
       
               <div class="title"><p class="mb-0">Contact Me</p></div>
             </section>
-      
-            
           </main>
-      
           <nav id="socialsNav">
-            <a href="mailto: Mohd.m.seleman@gmail.com" class="gmail">
+            <a href="mailto:Mohd.m.seleman@gmail.com" class="gmail">
               <div class="icon">
                 <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M16 3v10c0 .567-.433 1-1 1h-1V4.925L8 9.233 2 4.925V14H1c-.567 0-1-.433-1-1V3c0-.283.108-.533.287-.712C.467 2.107.718 2 1 2h.333L8 6.833 14.667 2H15c.283 0 .533.108.713.288.179.179.287.429.287.712z" fill-rule="evenodd"/></svg>
               </div>
       
               <div class="content">
                 <h1>Email</h1>
-                <span>Mohd.m.seleman@gmail.com</span>
+                <span class="contactEmail">Mohd.m.seleman@gmail.com</span>
               </div>
               
               <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"> <g class="nc-icon-wrapper" fill="#444444"> <path d="M17.17 32.92l9.17-9.17-9.17-9.17L20 11.75l12 12-12 12z"></path> </g> </svg>
@@ -276,7 +275,6 @@
         </div>
       </div>
     <!-- /Contact -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <script src="js/app.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
@@ -293,5 +291,12 @@
       integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 400,
+        duration: 1000
+      });
+    </script>
   </body>
 </html>
